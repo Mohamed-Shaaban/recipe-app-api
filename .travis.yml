@@ -5,7 +5,7 @@ python:
 
 services:
   - docker
-# command will excuate any atumation command
+# command will excuate before any automation command
 before_script: pip install docker-compose
 
 script:
